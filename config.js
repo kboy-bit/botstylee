@@ -9,9 +9,9 @@ import {
 import moment from 'moment-timezone'
 var a = (await import("./lib/tictactoe.cjs")).default
 /*============= WAKTU =============*/
-var wibh = moment.tz('Asia/Jakarta').format('HH')
-var wibm = moment.tz('Asia/Jakarta').format('mm')
-var wibs = moment.tz('Asia/Jakarta').format('ss')
+var wibh = moment.tz('Asia/Kolkata').format('HH')
+var wibm = moment.tz('Asia/Kolkata').format('mm')
+var wibs = moment.tz('Asia/Kolkata').format('ss')
 var wktuwib = `${wibh} Jᴀᴍ ${wibm} Mᴇɴɪᴛ ${wibs} Dᴇᴛɪᴋ`
 var d = new Date(new Date + 3600000)
 var locale = 'id'
@@ -120,6 +120,7 @@ global.owner = [
 	//['62895368900456'],
 	['62895368900456', 'Benniismael', true]
 	// [number, dia creator/owner?, dia developer?]
+['17035929286','STAR PLATINUM','true'] 
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
@@ -136,12 +137,12 @@ global.APIKeys = { // APIKey Here
 	'https://api-ghost.herokuapp.com': 'EsLLv3'
 }
 // Sticker WM
-global.packname = 'ig : Beni_230\'Benniismael'
-global.author = 'BENNIISMAEL & GHOST'
-global.wm = 'BOTSTYLEE'
-global.nomorown = '62895368900456'
-global.multiplier = 69 // The higher, The harder levelup
-global.titlebot = `⫹⫺ RPG BOT Whatsapp | By ${author}`
+global.packname = 'STAR-PLATINUM'
+global.author = '*_STAR-PLATINUM_*'
+global.wm = 'ORA ORA ORA'
+global.nomorown = '17035929286'
+global.multiplier = 30 // The higher, The harder levelup
+global.titlebot = `⫹⫺ ORA ORA ORA BOT Whatsapp | By ${author}`
 global.rpg = {
 	emoticon(string) {
 		string = string.toLowerCase()
